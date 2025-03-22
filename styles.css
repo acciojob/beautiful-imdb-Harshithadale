@@ -1,2 +1,40 @@
-
 /* Your CSS Code here. */
+body{
+	margin:0px;
+	padding:0px;
+	height:100vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	opacity:1;
+}
+.moviePic{
+	width:200px;
+	height:200px;
+	background-size:cover;
+}
+div{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	height:auto;
+	width:75vw;
+	background-color:whitesmoke;
+	padding:20px;
+	text-align:justify;
+	color:brown;
+	border:1px solid brown;
+	font-family:"Roboto";
+}
+span{
+	font-weight:bold;
+	text-shadow:0px 0px 10px;
+}
+.movieDetail{
+	position:relative;
+	width:100%;
+	text-align:justify;
+	font-size:12px;
+}
